@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*** GRID ***/
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.col-1 {
+	width: 220px;
+}
+.col-2 {
+	width: 460px;
+}
+.col-3 {
+	width: 700px;
+}
+.col-4 {
+	width: 300px;
+}
+/*** Clearfix ***/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*** TYPOGRAPHY STYLES ***/
+
+body {
+	font-family: Merriweather, georgia, serif;
+	font-size: 16px;
+	line-height: 25px;
+	font-style: normal;
+	font-weight: 400;
+	background-color: #fefefe;
+	color: #33333c;
+}
+::selection {
+	background: #fff2a8; /* Safari */
+	}
+::-moz-selection {
+	background: #fff2a8; /* Firefox */
+}
+blockquote {
+	margin-bottom: 25px;
+	margin-top: 25px;
+	font-size: 26px;
+	line-height: 50px;
+	text-align: left;
+	text-indent: 16px;
+	color: #33333c;
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 400;
+}
+h1 {
+	font-size: 42px;
+	line-height: 50px;
+	margin: 25px 0;
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	color: #33333c;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #33333c
+}
+h2 {
+	font-size: 26px;
+	line-height: 25px;
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: 700;
+	color: #33333c;
+}
+h3 {
+	font-weight: 700;
+	font-style: normal;
+	margin-top: 50px;
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+h6 {
+	font-weight: 700;
+	font-style: normal;
+	font-size: 13px;
+	margin-bottom: 25px;
+}
+p {
+	line-height: 25px;
+	font-style: normal;
+	font-weight: 400;
+	font-family: Merriweather;
+	font-size: 16px;
+}
+.intro {
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 42px;
+	padding-bottom: 25px;
+}
+/*** MY STYLES ***/
+
+.nav {
+	margin: 20px auto 0 auto;
+	text-align: center;
+	width: 960px;
+
+}
+.nav li {
+	font-size: 13px;
+	display: inline;
+}
+.nav ul a:hover {
+	color: #aa9566;
+}
+.nav .active-nav {
+	color: #aa9566;
+}
+ul {
+	list-style: circle;
+	padding-top: 5px;
+	margin-left: 18px;
+}
+ul a {
+	color: #33333c;
+	text-decoration: none;
+	margin: 10px 15px 0 0;
+}
+ul a:hover {
+	color: #aa9566;
+}
+.active-nav {
+	color: #aa9566;
+}
+.link {
+	border: 1px solid #33333c;
+	padding: 8px;
+	color: #33333c;
+	text-decoration: none;
+}
+a:visited {
+	color: #33333c;
+}
+.jimi {
+	border-radius: 50%;
+	padding: 10px;
+	display: block;
+    margin: 0 auto;
+}
+p {
+	padding-top: 5px;
+}
+article p + p {
+	text-indent: 25px;
+}
+a img:hover {
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+article {
+	padding-bottom: 75px;
+}
+.project-thumb {
+	padding: 15px 0;
+	text-align: center;
+	border: 0px solid #e3e3e3;
+	border-width: 0px 0 3px 0px;
+}
+.project-thumb a {
+	text-decoration: none;
+}
+.project-thumb a:hover {
+	color: #aa9566;
+}
+footer {
+	padding: 75px 0 25px;
+	color: #909090;
+}
+footer p {
+	font-size: 13px;
+	text-align: center;
+}
+.email {
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+}
+.email a {
+	color: #33333c;
+}
+.email a:hover {
+	text-decoration: none;
+	color: #aa9566;
+}
