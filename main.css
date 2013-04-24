@@ -228,10 +228,12 @@ article {
 .project-thumb {
 	padding: 15px 0;
 	text-align: center;
+	color: #33333c;
 	border: 0px solid #e3e3e3;
 	border-width: 0px 0 3px 0px;
 }
 .project-thumb a {
+	color: #33333c;
 	text-decoration: none;
 }
 .project-thumb a:hover {
