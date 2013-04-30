@@ -73,6 +73,23 @@ table {
 .col-4 {
 	width: 300px;
 }
+.col-center {
+	margin: 0 auto;
+	float: none;
+	text-align: center;
+}
+.col-center .col-1,
+.col-center .col-2,
+.col-center .col-3,
+.col-center .col-4 {
+	float: none;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+.clear {
+	clear: left;
+}
 /*** Clearfix ***/
 
 .group:before,
@@ -253,7 +270,7 @@ footer p {
 	font-weight: normal;
 }
 .email a {
-	color: #33333c;
+	color: #aa9566;
 }
 .email a:hover {
 	text-decoration: none;
