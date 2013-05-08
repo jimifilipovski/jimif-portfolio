@@ -174,11 +174,20 @@ p {
 	font-family: Merriweather;
 	font-size: 16px;
 }
+strong {
+	font-weight: bold;
+}
 .intro {
 	font-weight: 400;
 	font-size: 26px;
 	line-height: 42px;
 	padding-bottom: 25px;
+}
+.work-description {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 31px;
+	padding: 50px 0 50px 0;
 }
 /*** MY STYLES ***/
 
@@ -225,6 +234,8 @@ a:visited {
 }
 .jimi {
 	border-radius: 50%;
+	width: 200px;
+	height: 200px;
 	padding: 10px;
 	display: block;
     margin: 0 auto;
@@ -255,6 +266,9 @@ article {
 }
 .project-thumb a:hover {
 	color: #aa9566;
+}
+.project-display {
+	padding-top: 20px;
 }
 footer {
 	padding: 75px 0 25px;
