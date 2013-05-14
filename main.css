@@ -108,7 +108,7 @@ table {
 /*** TYPOGRAPHY STYLES ***/
 
 body {
-	font-family: Merriweather, georgia, serif;
+	font-family: 'Merriweather', georgia, serif;
 	font-size: 16px;
 	line-height: 25px;
 	font-style: normal;
@@ -132,7 +132,7 @@ blockquote {
 	text-align: left;
 	text-indent: 16px;
 	color: #33333c;
-	font-family: Merriweather;
+	font-family: 'Merriweather';
 	font-style: normal;
 	font-weight: 400;
 }
@@ -146,7 +146,7 @@ h1 {
 	text-align: center;
 	color: #33333c;
 	padding-bottom: 25px;
-	border-bottom: 1px solid #33333c
+	border-bottom: 1px solid #33333c;
 }
 h2 {
 	font-size: 26px;
@@ -177,7 +177,7 @@ p {
 	font-size: 16px;
 }
 strong {
-	font-weight: bold;
+	font-weight: 700;
 }
 .intro {
 	font-weight: 400;
@@ -259,8 +259,11 @@ article {
 	padding: 15px 0;
 	text-align: center;
 	color: #33333c;
-	border: 0px solid #e3e3e3;
-	border-width: 0px 0 3px 0px;
+	/*border: 0px solid #e3e3e3;
+	border-width: 0px 0 3px 0px;*/
+}
+.project-thumb p {
+	font-size: 13px;
 }
 .project-thumb a {
 	color: #33333c;
