@@ -90,6 +90,29 @@ table {
 .clear {
 	clear: left;
 }
+/*COLUMNS*/
+.columns {
+	-webkit-column-count: 3;
+	-webkit-column-gap: 10px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 3;
+	-moz-column-gap: 10px;
+	-moz-column-fill: auto;
+	column-count: 3;
+	column-gap: 15px;
+	column-fill: auto;
+}
+.project-thumb {
+	display: inline-block;
+	padding: 15px 0;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	text-align: center;
+	color: #33333c;
+	/*border: 0px solid #e3e3e3;
+	border-width: 0px 0 3px 0px;*/
+}
 /*** Clearfix ***/
 
 .group:before,
@@ -256,19 +279,10 @@ a img:hover {
 article {
 	padding-bottom: 75px;
 }
-.project-thumb {
-	padding: 15px 0;
-	text-align: center;
-	color: #33333c;
-	/*border: 0px solid #e3e3e3;
-	border-width: 0px 0 3px 0px;*/
-}
-.project-thumb p {
-	font-size: 13px;
-}
 .project-thumb a {
 	color: #33333c;
 	text-decoration: none;
+	font-size: 13px;
 }
 .project-thumb a:hover {
 	color: #aa9566;
