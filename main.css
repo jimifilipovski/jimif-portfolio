@@ -266,9 +266,6 @@ a:visited {
 	color: #33333c;
 }
 .about {
-	border-radius: 50%;
-	width: 200px;
-	height: 200px;
 	padding: 10px;
 	display: block;
     margin: 0 auto;
@@ -312,6 +309,7 @@ footer p {
 }
 .email a {
 	color: #aa9566;
+	text-decoration: underline;
 }
 .email a:hover {
 	text-decoration: none;
