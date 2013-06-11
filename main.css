@@ -90,7 +90,12 @@ table {
 .clear {
 	clear: left;
 }
+.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
 /*COLUMNS*/
+
 .columns {
 	-webkit-column-count: 3;
 	-webkit-column-gap: 10px;
@@ -233,6 +238,9 @@ strong {
 .nav .active-nav {
 	color: #aa9566;
 }
+.active-nav {
+	color: #aa9566;
+}
 ul {
 	list-style: circle;
 	padding-top: 5px;
@@ -246,19 +254,18 @@ ul a {
 ul a:hover {
 	color: #aa9566;
 }
-.active-nav {
-	color: #aa9566;
-}
-.link {
-	border: 1px solid #33333c;
-	padding: 8px;
+a {
 	color: #33333c;
 	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #aa9566;
 }
 a:visited {
 	color: #33333c;
 }
-.jimi {
+.about {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
